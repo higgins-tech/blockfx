@@ -1,0 +1,59 @@
+var _path, _g, _defs;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgFlg1(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 33,
+    height: 33,
+    viewBox: "0 0 33 33",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_432_197)"
+  }, /*#__PURE__*/React.createElement("mask", {
+    id: "mask0_432_197",
+    style: {
+      maskType: "luminance"
+    },
+    maskUnits: "userSpaceOnUse",
+    x: 0,
+    y: 0,
+    width: 33,
+    height: 33
+  }, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16.5 33C25.6127 33 33 25.6127 33 16.5C33 7.3873 25.6127 0 16.5 0C7.3873 0 0 7.3873 0 16.5C0 25.6127 7.3873 33 16.5 33Z",
+    fill: "white"
+  }))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    mask: "url(#mask0_432_197)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M16.5 0H33V4.125L30.9375 6.1875L33 8.25V12.375L30.9375 14.4375L33 16.5V20.625L30.9375 22.6875L33 24.75V28.875L16.5 30.9375L0 28.875V24.75L2.0625 22.6875L0 20.625V16.5L16.5 0Z",
+    fill: "#EEEEEE"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M14.4375 4.125H33V8.25H14.4375V4.125ZM14.4375 12.375H33V16.5H16.5L14.4375 12.375ZM0 20.625H33V24.75H0V20.625ZM0 28.875H33V33H0V28.875Z",
+    fill: "#D80027"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M0 0H16.5V16.5H0V0Z",
+    fill: "#0052B4"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12.0527 15.6621L15.7266 13.0195H11.2148L14.8887 15.6621L13.4707 11.3438L12.0527 15.6621ZM6.83203 15.6621L10.5059 13.0195H5.99414L9.66797 15.6621L8.25 11.3438L6.83203 15.6621ZM1.61133 15.6621L5.28516 13.0195H0.773438L4.44727 15.6621L3.0293 11.3438L1.61133 15.6621ZM12.0527 10.4414L15.7266 7.79883H11.2148L14.8887 10.4414L13.4707 6.12305L12.0527 10.4414ZM6.83203 10.4414L10.5059 7.79883H5.99414L9.66797 10.4414L8.25 6.12305L6.83203 10.4414ZM1.61133 10.4414L5.28516 7.79883H0.773438L4.44727 10.4414L3.0293 6.12305L1.61133 10.4414ZM12.0527 5.15625L15.7266 2.51367H11.2148L14.8887 5.15625L13.4707 0.837891L12.0527 5.15625ZM6.83203 5.15625L10.5059 2.51367H5.99414L9.66797 5.15625L8.25 0.837891L6.83203 5.15625ZM1.61133 5.15625L5.28516 2.51367H0.773438L4.44727 5.15625L3.0293 0.837891L1.61133 5.15625Z",
+    fill: "#EEEEEE"
+  })))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_432_197"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 33,
+    height: 33,
+    fill: "white"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgFlg1);
+export default __webpack_public_path__ + "static/media/flg (1).d9f83c35ce0491d719b1255f725cb3e9.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,35 @@
+var _rect, _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgX(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 30,
+    viewBox: "0 0 32 30",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    y: 0.947754,
+    width: 32,
+    height: 29,
+    rx: 14.5,
+    fill: "#F5F5F5"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M19.5725 12.376L12.4297 19.5188M19.5725 19.5188L12.4297 12.376",
+    stroke: "#646464",
+    strokeWidth: 1.42857,
+    strokeLinecap: "round"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgX);
+export default __webpack_public_path__ + "static/media/x.56df5311c68c0f487aad2da04a03dbd9.svg";
+export { ForwardRef as ReactComponent };

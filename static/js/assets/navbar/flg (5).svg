@@ -1,0 +1,30 @@
+var _path, _path2;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgFlg5(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 36,
+    height: 37,
+    viewBox: "0 0 36 37",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M17.8063 35.1273C27.0278 35.1273 34.5033 27.6518 34.5033 18.4303C34.5033 9.20888 27.0278 1.7334 17.8063 1.7334C8.58485 1.7334 1.10938 9.20888 1.10938 18.4303C1.10938 27.6518 8.58485 35.1273 17.8063 35.1273Z",
+    fill: "#F5F5F5"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M17.8038 25.109C21.4924 25.109 24.4826 22.1188 24.4826 18.4302C24.4826 14.7417 21.4924 11.7515 17.8038 11.7515C14.1152 11.7515 11.125 14.7417 11.125 18.4302C11.125 22.1188 14.1152 25.109 17.8038 25.109Z",
+    fill: "#ED4C5C"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgFlg5);
+export default __webpack_public_path__ + "static/media/flg (5).7ceae14171bb48863a9745266001da76.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,42 @@
+var _rect, _rect2, _rect3;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgMenu(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 25,
+    viewBox: "0 0 24 25",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 4,
+    y: 6.05371,
+    width: 16,
+    height: 2.28571,
+    fill: "white"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 4,
+    y: 10.625,
+    width: 16,
+    height: 2.28571,
+    fill: "white"
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 4,
+    y: 15.1963,
+    width: 16,
+    height: 2.28571,
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgMenu);
+export default __webpack_public_path__ + "static/media/menu.5fcd644ab4ec2e0cec0490b00f55bb13.svg";
+export { ForwardRef as ReactComponent };

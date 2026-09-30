@@ -1,0 +1,35 @@
+var _rect, _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgArwr(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 38,
+    height: 38,
+    viewBox: "0 0 38 38",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    width: 38,
+    height: 38,
+    rx: 8,
+    transform: "matrix(-1 0 0 1 38 0)",
+    fill: "#D9D9D9"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M22.1631 10.358L15.3152 18.1358C14.8949 18.6131 14.8949 19.3869 15.3152 19.8642L22.1631 27.642C22.5833 28.1193 23.2646 28.1193 23.6848 27.642C24.1051 27.1647 24.1051 26.3909 23.6848 25.9136L17.5978 19L23.6848 12.0864C24.1051 11.6091 24.1051 10.8353 23.6848 10.358C23.2646 9.88068 22.5833 9.88068 22.1631 10.358Z",
+    fill: "black"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgArwr);
+export default __webpack_public_path__ + "static/media/arwr.7a8906e188173544f8082b9c122ca8b0.svg";
+export { ForwardRef as ReactComponent };

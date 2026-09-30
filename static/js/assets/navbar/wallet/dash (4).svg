@@ -1,0 +1,39 @@
+var _path, _defs;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgDash4(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 14,
+    height: 14,
+    viewBox: "0 0 14 14",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M5.76513 13.3392V0.515625H7.94125V13.3392H5.76513ZM0.441406 8.01547V5.83935H13.265V8.01547H0.441406Z",
+    fill: "url(#paint0_linear_2086_19661)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_2086_19661",
+    x1: -2.34632,
+    y1: 6.09109,
+    x2: 14.3801,
+    y2: 8.87882,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#E0B300"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#C36E00"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDash4);
+export default __webpack_public_path__ + "static/media/dash (4).ed924b7e9c87ef5e04b0d845ba46f392.svg";
+export { ForwardRef as ReactComponent };
